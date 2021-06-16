@@ -95,12 +95,20 @@
 
 ### How can we tag an image?
 > There are tow ways
-* One way is tag an image while building it (`docker build -t webapp:1 .`)
+* One way is tag an image while building it (`docker build -t webapp:2 .`)
 * the other way after the build (`docker image tag webapp:latest webapp:1`)
 > `docker image tag <imageID> webapp:latest`
 
+![tag_when_build](./screenshots/tag_when_build.png)
+
+> Remove a tag
+![remove_tag](./screenshots/remove_tag.png)
+
+> Explicitely update a tag
+![explicitly_update_tag](./screenshots/explicitly_update_tag.png)
+
 ### How do we remove tag?
-> `docker image remove webapp:1`
+> `docker image remove webapp:2`
 
 > All possible commands are listed in the following google docs
 
