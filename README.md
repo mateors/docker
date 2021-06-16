@@ -97,7 +97,10 @@
 > There are tow ways
 * One way is tag an image while building it (`docker build -t webapp:2 .`)
 * the other way after the build (`docker image tag webapp:latest webapp:1`)
-> `docker image tag <imageID> webapp:latest`
+
+> `docker image tag <imageID> webapp:latest` updates tag after build (Explicitly)
+![explicit_tagging](./screenshots/explicit_tagging.png)
+
 
 ![tag_when_build](./screenshots/tag_when_build.png)
 
