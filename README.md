@@ -120,10 +120,16 @@
 > **Navigate** to https://hub.docker.com/repositories\
 ![dockerhub_navigation](./screenshots/dockerhub_navigation.png)
 
-> **Create a repository** like github\
+> **Create a Repository** like github\
 ![create_repo](./screenshots/create_repo.png)\
-> Repo confirmation window
+> Repo confirmation window\
 ![repo_confirmation](./screenshots/repo_confirmation.png)
+
+> for publishing to docker hub tag
+> Syntax: `docker image tag <imageName or ID> RepoPath:TAG`\
+> `docker image tag 8d92 mateors/webapp:2`\
+![tagging_for_push](./screenshots/tagging_for_push.png)
+
 
 > All possible commands are listed in the following google docs
 
