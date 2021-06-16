@@ -125,8 +125,8 @@
 > Repo confirmation window\
 ![repo_confirmation](./screenshots/repo_confirmation.png)
 
-> for publishing to docker hub tag
-> Syntax: `docker image tag <imageName or ID> RepoPath:TAG`\
+> For publishing to docker hub tag\
+> **Syntax:** `docker image tag <imageName or ID> RepoPath:TAG`\
 > `docker image tag 8d92 mateors/webapp:2`\
 ![tagging_for_push](./screenshots/tagging_for_push.png)
 
