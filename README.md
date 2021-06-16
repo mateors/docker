@@ -104,8 +104,8 @@
 > **Remove a tag**
 ![remove_tag](./screenshots/remove_tag.png)
 
-> **Explicitely update a tag**
-![explicitly_update_tag](./screenshots/explicitly_update_tag.png)
+> **Explicitely update a tag**cls
+![Explicitly_update_tag](./screenshots/Explicitly_Epdate_Tag.png)
 
 ### How do we remove tag?
 > `docker image remove webapp:2`
