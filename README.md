@@ -49,11 +49,6 @@
 > `docker build -f Dockerfile.dev -t helloWorld` repository=helloWorld, tag=latest\
 > `docker build -f Dockerfile.dev -t helloWorld:1` repository=helloWorld, tag=1
 
-### Image Build history (Show the history of an image)
-> `docker history <imageName or ID>`\
-> `docker image history <imageName or ID>`\
-![image_build_history](./screenshots/image_build_history.png)
-
 ### List Images
 > there are two commands to show the image list
 * docker images
@@ -61,8 +56,12 @@
 
 > `docker images --help`\
 > `docker images`\
-> `docker image ls`\
-> `docker images`
+> `docker image ls`
+
+### Image Build history (Show the history of an image)
+> `docker history <imageName or ID>`\
+> `docker image history <imageName or ID>`\
+![image_build_history](./screenshots/image_build_history.png)
 
 ### Remove ALL unused images
 > `docker image prune`
