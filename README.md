@@ -42,11 +42,11 @@
 ```
 
 ### We use docker build command to create container from above dockerfile
-> Syntax: docker build <dockerFile> <option> <path>
-> `docker build .` repository=<none>, tage=<none>
-> `docker build . -t mateors/hello` repository=mateors/hello, tag=latest
-> `docker build . -t mateors/hello:1` repository=mateors/hello, tag=1
-> `docker build -f Dockerfile.dev -t helloWorld` repository=helloWorld, tag=latest
+> Syntax: docker build <dockerFile> <option> <path>\
+> `docker build .` repository=<none>, tage=<none>\
+> `docker build . -t mateors/hello` repository=mateors/hello, tag=latest\
+> `docker build . -t mateors/hello:1` repository=mateors/hello, tag=1\
+> `docker build -f Dockerfile.dev -t helloWorld` repository=helloWorld, tag=latest\
 > `docker build -f Dockerfile.dev -t helloWorld:1` repository=helloWorld, tag=1
 
 ### List Images
@@ -54,24 +54,24 @@
 * docker images
 * docker image ls
 
-> `docker images --help`
-> `docker images`
-> `docker image ls`
+> `docker images --help`\
+> `docker images`\
+> `docker image ls`\
 > `docker images`
 
 ### Remove ALL unused images
 > `docker image prune`
 
 ### Remove single unused images
-> `docker image rm <imageName or ID>`
-> `docker image remove <imageName or ID>`
-> `docker image rmi <imageName or ID>`
-> `docker image rmi -f <imageName or ID>`
-> `docker image rmi <imageName or ID> <imageName or ID> <imageName or ID>`
-![image_remove](./screenshots/image_remove)
+> `docker image rm <imageName or ID>`\
+> `docker image remove <imageName or ID>`\
+> `docker image rmi <imageName or ID>`\
+> `docker image rmi -f <imageName or ID>`\
+> `docker image rmi <imageName or ID> <imageName or ID> <imageName or ID>`\
+![image_remove](./screenshots/image_remove.png)
 
 ### Check build history (Show the history of an image)
-> `docker history --help`
+> `docker history --help`\
 > `docker history <imageName or ID>`
 
 
