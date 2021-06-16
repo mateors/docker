@@ -130,6 +130,24 @@
 > `docker image tag 8d92 mateors/webapp:2`\
 > ![tagging_for_push](./screenshots/tagging_for_push.png)
 
+> Now login from the command line using docker login command
+> `docker login`\ or
+> `winpty docker login`\ from gitbash terminal\
+> ![docker_login](./screenshots/docker_login.png)
+
+> `docker push mateors/webapp:2`\
+> ![docker_push](./screenshots/docker_push.png)
+
+> Now navigate to docker repo url and refresh the page\
+> ![docker_repo](./screenshots/docker_repo.png)
+
+> `docker build -t webapp:beta .`\
+> `docker image tag webapp:beta mateors/webapp:beta`\
+> `docker push mateors/webapp:beta`\
+> ![another_tag_push](./screenshots/another_tag_push.png)
+
+> Now go to the docker hub and **refresh the repo page**
+> ![docker_hub_beta_push](./screenshots/docker_hub_beta_push.png)
 
 > All possible commands are listed in the following google docs
 

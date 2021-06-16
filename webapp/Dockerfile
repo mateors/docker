@@ -1,4 +1,4 @@
-#Version 2.0
+#Version beta
 FROM golang:alpine
 ENV GO111MODULE=on
 ENV BG_COLOR=skyblue
