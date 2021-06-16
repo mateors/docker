@@ -24,7 +24,7 @@
 ![docker_run_container](../screenshots/labs/docker_run_container.png)
 
 > Navigate to the home page clicking on **port 8180**\
->[webapp](../screenshots/labs/webapp_home.png)
+>![webapp](../screenshots/labs/webapp_home.png)
 
 Reference:
 * https://labs.play-with-docker.com/
