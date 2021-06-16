@@ -78,7 +78,29 @@
 > `docker history --help`\
 > `docker history <imageName or ID>`
 
+### Inspect - Display detailed information on one or more images
+> `docker image inspect --help`\
+> `docker image inspect <imageName or ID>`
+![docker_inspect](./screenshots/docker_inspect.png)
 
+### Tag - Tagging Images
+* latest tag is just a label
+* latest tag does not neccessarily mean it is the latest version of the image
+* latest tag does not neccessarily reference the latest image
+* Explicit tag to indentify what version you are running (`docker image tag <imageID> webapp:latest`)
+
+> `docker build -t webapp .` clean build\
+> `docker images` to display all of our images\
+> `docker image tag`
+
+### How can we tag an image?
+> There are tow ways
+* One way is tag an image while building it (`docker build -t webapp:1 .`)
+* the other way after the build (`docker image tag webapp:latest webapp:1`)
+> `docker image tag <imageID> webapp:latest`
+
+### How do we remove tag?
+> `docker image remove webapp:1`
 
 > All possible commands are listed in the following google docs
 
