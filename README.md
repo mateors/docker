@@ -101,10 +101,10 @@
 
 ![tag_when_build](./screenshots/tag_when_build.png)
 
-> Remove a tag
+> **Remove a tag**
 ![remove_tag](./screenshots/remove_tag.png)
 
-> Explicitely update a tag
+> **Explicitely update a tag**
 ![explicitly_update_tag](./screenshots/explicitly_update_tag.png)
 
 ### How do we remove tag?
