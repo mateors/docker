@@ -110,6 +110,18 @@
 ### How do we remove tag?
 > `docker image remove webapp:2`
 
+## docker push - Sharing Images
+> login to hub.docker.com (if not registered yet please signup)\
+![hub_docker](./screenshots/hub_docker.png)
+
+> navigate to https://hub.docker.com/repositories\
+![dockerhub_navigation](./screenshots/dockerhub_navigation.png)
+
+> create a repository like github\
+![create_repo](./screenshots/create_repo.png)\
+> Repo confirmation window
+![repo_confirmation](./screenshots/repo_confirmation.png)
+
 > All possible commands are listed in the following google docs
 
 ## References
