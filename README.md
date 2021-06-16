@@ -111,13 +111,13 @@
 > `docker image remove webapp:2`
 
 ## docker push - Sharing Images
-> login to hub.docker.com (if not registered yet please signup)\
+> **Login** to hub.docker.com (if not registered yet please signup)\
 ![hub_docker](./screenshots/hub_docker.png)
 
-> navigate to https://hub.docker.com/repositories\
+> **Navigate** to https://hub.docker.com/repositories\
 ![dockerhub_navigation](./screenshots/dockerhub_navigation.png)
 
-> create a repository like github\
+> **Create a repository** like github\
 ![create_repo](./screenshots/create_repo.png)\
 > Repo confirmation window
 ![repo_confirmation](./screenshots/repo_confirmation.png)
