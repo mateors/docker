@@ -12,3 +12,7 @@
 ## Open your browser and head over to http://localhost:8180
 > `http://localhost:8180`\
 ![mywebapp_running](../screenshots/mywebapp_running.png)
+
+## Dockerfile good practices
+> to optimise dockerfile\
+![dockerfile_good_practice](../screenshots/dockerfile_good_practice.png)
