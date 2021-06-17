@@ -57,7 +57,9 @@ services:
 
 ## Now rebuilding the same app using Dockerfile (previously used image from docker hub)
 > `docker-compose -f docker-compose2.yaml up -d`\
+>
 
 ## References:
 * [Compose command](https://docs.docker.com/compose/cli-command/)
 * [Getting started](https://docs.docker.com/compose/gettingstarted/)
+* [Compose file](https://docs.docker.com/compose/compose-file/)
