@@ -41,6 +41,10 @@ services:
 ## Docker compose command starts and runs your entire app
 > `docker-compose up -d`
 
+> Now my webapp is up and running on port 8180, I can check on my browser\
+> http://localhost:8180\
+![mywebapp_running](../screenshots/mywebapp_running.png)
+
 ## References:
 * [Compose command](https://docs.docker.com/compose/cli-command/)
 * [Getting started](https://docs.docker.com/compose/gettingstarted/)
