@@ -18,7 +18,7 @@ services:
         image: mateors/webapp:beta
         container_name: mywebapp
         environment: 
-            MY_COLOR: skyblue
+            - MY_COLOR=skyblue
         ports:
          - 8180:8180
 ```
