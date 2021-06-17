@@ -34,6 +34,9 @@ services:
 > `docker-compose --version`\
 ![docker-compose-version-check](../screenshots/docker-compose-version-check.png)
 
+## Executing My First docker-compose file docker-compose.yaml
+> `docker-compose up -d`\
+![docker-compose-up-d](../screenshots/docker-compose-up-d.png)
 
 ## Docker compose command starts and runs your entire app
 > `docker-compose up -d`
