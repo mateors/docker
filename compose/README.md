@@ -30,6 +30,16 @@ services:
 * Stream the log output of running services
 * Run a one-off command on a service
 
+## Docker-compose Installation
+> Docker Desktop for Windows & Mac includes Compose\
+> Linux user please follow the instructios from the below url\
+> https://docs.docker.com/compose/install
+
+## Try the following commands (ubuntu 20.04) instead
+> `sudo apt install curl`\
+> `sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`\
+> `sudo chmod +x /usr/local/bin/docker-compose`\
+
 ## Docker compose version
 > `docker-compose --version`\
 ![docker-compose-version-check](../screenshots/docker-compose-version-check.png)
