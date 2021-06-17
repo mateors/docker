@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+    #Webapp
+    webapp:
+        build: ./Dockerfile2 # or . | Dockerfile2 #build from the Dockerfile
+        container_name: mywebapp2 #--name mywebapp2
+        environment: 
+            - MY_COLOR=blue
+        ports:
+         - 8181:8180
