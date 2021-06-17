@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    #Webapp
+    webapp:
+        image: mateors/webapp:beta
+        container_name: mywebapp
+        environment: 
+            MY_COLOR: skyblue
+        ports:
+         - 8180:8180
