@@ -14,7 +14,7 @@
 > `docker run -it alpine:latest sh`\
 ![docker_run_new_container_interactive_mode](../screenshots/docker_run_new_container_interactive_mode.png)
 
-
+## Host Network test
 > `docker run -d --network host --name mynginx nginx:latest` (Not working in windows)\
 > `docker stop mynginx`
 
@@ -30,5 +30,5 @@
 > `ping ip`
 
 ## Connect a container in a different network
-> `docker network bridge`\
+> `docker network connect --help`\
 > `docker network connect custom_bridge <containerid>`\
