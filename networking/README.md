@@ -17,3 +17,18 @@
 
 > `docker run -d --network host --name mynginx nginx:latest` (Not working in windows)\
 > `docker stop mynginx`
+
+## Create a custom bridge
+> `docker network create cbridge`\
+> `docker network ls`\
+> `brctl show`\
+> `docker run -dt  --network cbridge alpine:latest sh`\
+> `docker ps`\
+> `docker run -dt  --network cbridge alpine:latest sh`\
+> `docker inspect cbridge`\
+> `docker exec -it <containerid> sh`\
+> `ping ip`
+
+## Connect a container in a different network
+> `docker network bridge`\
+> `docker network connect custom_bridge <containerid>`\
