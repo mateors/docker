@@ -24,7 +24,7 @@
 > **Containers** - Created from Docker images and run the actual application. After downloading the image We create a container using docker run command. A list of running containers can be seen using the docker ps command.
 
 ## Dockerfile:
-> A text document containing the commands to build a Docker image.
+> A text document containing the commands to build a Docker image.\
 > To build an image from a Dockerfile you use the docker build command.
 
 ### Example Dockerfile
@@ -80,7 +80,7 @@
 
 ### Inspect - Display detailed information on one or more images
 > `docker image inspect --help`\
-> `docker image inspect <imageName or ID>`
+> `docker image inspect <imageName or ID>`\
 ![docker_inspect](./screenshots/docker_inspect.png)
 
 ### Tag - Tagging Images
@@ -131,11 +131,11 @@
 > ![tagging_for_push](./screenshots/tagging_for_push.png)
 
 > Now login from the command line using docker login command
-> `docker login`\ or
-> `winpty docker login`\ from gitbash terminal\
+> `docker login` or \
+> `winpty docker login` from gitbash terminal \
 > ![docker_login](./screenshots/docker_login.png)
 
-> `docker push mateors/webapp:2`\
+> `docker push mateors/webapp:2` \
 > ![docker_push](./screenshots/docker_push.png)
 
 > Now navigate to docker repo url and refresh the page\
@@ -153,5 +153,5 @@
 
 ## References
 * [Our Docker Image Location](https://hub.docker.com/r/mateors/webapp)
-* [Docker docs](https://docs.google.com/document/d/1aXqP3HGMoaD-zOfmsQFjbuMB13LMNEVg1bZNuBtM-wM/edit?usp=sharing)
 
+* [Docker docs](https://docs.google.com/document/d/1aXqP3HGMoaD-zOfmsQFjbuMB13LMNEVg1bZNuBtM-wM/edit?usp=sharing)
