@@ -102,7 +102,7 @@
 ![explicit_tagging](./screenshots/explicit_tagging.png)
 
 
-![tag_when_build](./screenshots/tag_when_build.png)
+> ![tag_when_build](./screenshots/tag_when_build.png)
 
 > **Remove a tag**
 ![remove_tag](./screenshots/remove_tag.png)
@@ -141,6 +141,7 @@
 > Now navigate to docker repo url and refresh the page\
 > ![docker_repo](./screenshots/docker_repo.png)
 
+## Docker Build & Push
 > `docker build -t webapp:beta .`\
 > `docker image tag webapp:beta mateors/webapp:beta`\
 > `docker push mateors/webapp:beta`\
